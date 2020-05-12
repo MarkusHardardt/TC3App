@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<TcSmItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2012/07/TcSmProject" TcSmVersion="1.0" TcVersion="3.1.4024.4" ClassName="CNestedPlcProjDef">
+	<Project GUID="{B418EA8B-14A4-4257-96AF-891A3A7275C0}" Name="CTRL_ST" PrjFilePath="..\..\CTRL_ST\CTRL_ST.plcproj" TmcFilePath="..\..\CTRL_ST\CTRL_ST.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
+		<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="CTRL_ST\CTRL_ST.tmc">
+			<Name>CTRL_ST Instance</Name>
+			<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
+			<TaskPouOids>
+				<TaskPouOid Prio="21" OTCID="#x08502001"/>
+			</TaskPouOids>
+		</Instance>
+	</Project>
+</TcSmItem>
